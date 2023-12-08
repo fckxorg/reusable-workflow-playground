@@ -31,7 +31,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Optional step only if reused
-        if: ${{ github.event_name }} == 'workflow_call'
+        if: ${{ inputs.submodule }}
         run: echo ${{ inputs.submodule }}
 
       # Runs a set of commands using the runners shell
