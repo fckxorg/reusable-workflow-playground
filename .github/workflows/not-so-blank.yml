@@ -17,6 +17,6 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    uses: fckxorg/reusable-workflow-playground/.github/workflows/blank.yml@v1
+    uses: fckxorg/reusable-workflow-playground/.github/workflows/blank.yml@main
     with:
       submodule: 'luajit'
